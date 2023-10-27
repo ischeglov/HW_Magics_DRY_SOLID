@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface MusicPlayer {
+public interface MusicPlayer {
+    void playMusic(String query);
 }

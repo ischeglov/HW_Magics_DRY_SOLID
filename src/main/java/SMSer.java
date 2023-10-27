@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class SMSer {
+public interface SMSer {
+    void sendSMS(String msg, String number);
 }
