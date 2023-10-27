@@ -1,6 +1,7 @@
 public class Laptop extends Catalog implements MusicPlayer, SMSer {
-    /*Interface segregation principle - в классе Laptop, который имплиментирует 2 разных интерфейса, которые "применимы" к ноутам.
-    а класс Phone имплиментирует только те интерфейсы, которые "якобы" относятся к телефонам.*/
+    /*Interface segregation principle - классы Laptop и Phone.
+    Класс Laptop, который имплиментирует 2 разных интерфейса, которые "применимы" к ноутам.
+    а класс Phone имплиментирует только те интерфейсы, которые относятся к телефонам.*/
 
     String name;
     int price;

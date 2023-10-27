@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Launcher {
     /*Dependency inversion principle - класс Launcher. Метод selectСategoryMenu.
-    Oбъект Adder adder = new AdderWithOrder() - мы можем также сделать через CatalogAdder summator = new new AdderWithOrder()
+    Oбъект Adder adder = new AdderWithOrder() - мы можем также сделать через CatalogAdder summator = new AdderWithOrder()
     и тогда у нас все будет доступно через интерфейс CatalogAdder.
 
     DRY - класс Launcher, метод selectСategoryMenu

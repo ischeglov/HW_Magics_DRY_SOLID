@@ -3,9 +3,9 @@ import java.util.List;
 public class AdderWithOrder extends Adder {
     /*Open-closed principle - класс AdderWithOrder расширяет класс Adder.
     При необходимости добавляем методы, если мы хотим изменить логику, такие как placeBuyerOrder к примеру.
-    Liskov substitution principle - классах AdderWithOrder, который расширяет класс Adder.
+    Liskov substitution principle - класс AdderWithOrder, который расширяет класс Adder.
     Наследник выполняет все те же функции, что и родитель, и может его заменить.*/
-    
+
     @Override
     public void sum(List<Catalog> list) {
         super.sum(list);
