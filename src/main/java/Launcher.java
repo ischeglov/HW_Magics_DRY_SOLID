@@ -16,16 +16,16 @@ public class Launcher {
 
     public static final Scanner scanner = new Scanner(System.in);
 
-    public static final List<Catalog> laptopList = new ArrayList<>();
+    public static final List<Catalog> laptopsList = new ArrayList<>();
     public static final List<Catalog> phonesList = new ArrayList<>();
 
     public static void main(String[] args) {
 
-        laptopList.add(new MacBook("Apple MacBook Air (M1, 2020) 8 ГБ, 256 ГБ SSD", 99_990, 8.0));
-        laptopList.add(new MacBook("Apple MacBook Air 13 (M2, 8C CPU/8C GPU, 2022), 8 ГБ, 256 ГБ SSD", 134_990, 8.5));
-        laptopList.add(new MacBook("Apple MacBook Air 13 (M2, 8C CPU/10C GPU, 2022), 8 ГБ, 512 ГБ SSD", 166_990, 9.0));
-        laptopList.add(new MacBook("Apple MacBook Air 15 (M2, 8C CPU/10C GPU, 2023), 8 ГБ, 256 ГБ SSD", 159_990, 9.5));
-        laptopList.add(new MacBook("Apple MacBook Pro 16 (M2 Max 12C CPU, 38C GPU, 2023) 32 ГБ, 2 ТБ SSD", 585_990, 10.0));
+        laptopsList.add(new MacBook("Apple MacBook Air (M1, 2020) 8 ГБ, 256 ГБ SSD", 99_990, 8.0));
+        laptopsList.add(new MacBook("Apple MacBook Air 13 (M2, 8C CPU/8C GPU, 2022), 8 ГБ, 256 ГБ SSD", 134_990, 8.5));
+        laptopsList.add(new MacBook("Apple MacBook Air 13 (M2, 8C CPU/10C GPU, 2022), 8 ГБ, 512 ГБ SSD", 166_990, 9.0));
+        laptopsList.add(new MacBook("Apple MacBook Air 15 (M2, 8C CPU/10C GPU, 2023), 8 ГБ, 256 ГБ SSD", 159_990, 9.5));
+        laptopsList.add(new MacBook("Apple MacBook Pro 16 (M2 Max 12C CPU, 38C GPU, 2023) 32 ГБ, 2 ТБ SSD", 585_990, 10.0));
 
         phonesList.add(new IPhone("Apple iPhone 13, 256 ГБ", 95_990));
         phonesList.add(new IPhone("Apple iPhone 14 Plus SIM 512 ГБ", 139_990));
@@ -37,7 +37,7 @@ public class Launcher {
     }
 
     public static void start() {
-        selectСategory(laptopList, phonesList);
+        selectСategory(laptopsList, phonesList);
     }
 
     public static void selectСategory(List<Catalog> laptopsList, List<Catalog> phonesList) {
