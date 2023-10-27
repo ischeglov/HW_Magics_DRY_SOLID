@@ -1,8 +1,8 @@
 # HW_Magics_DRY_SOLID
 
 ### DRY - класс Launcher, метод selectСategoryMenu
-  Можем создать список с абсолютно другим каталогом чего - либо. Передать новый лист в метод и он будет отрабатывать также.
-  Тоже самое касаемо метода filterMenu. При необходимости можем отфильтровать иной каталог товаров.
+    Можем создать список с абсолютно другим каталогом чего - либо. Передать новый лист в метод и он будет отрабатывать также.
+    Тоже самое касаемо метода filterMenu. При необходимости можем отфильтровать иной каталог товаров.
 * [Ссылка на класс Launcher и метод selectСategoryMenu](https://github.com/ischeglov/HW_Magics_DRY_SOLID/blob/f2c2fbfed7683abe65e48e530a4a9785585a15c5/src/main/java/Launcher.java#L60)
 * [Ссылка на класс Launcher и метод filterMenu](https://github.com/ischeglov/HW_Magics_DRY_SOLID/blob/f2c2fbfed7683abe65e48e530a4a9785585a15c5/src/main/java/Launcher.java#L89)
 ## SOLID
