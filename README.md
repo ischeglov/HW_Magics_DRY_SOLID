@@ -29,7 +29,7 @@
 * [Ссылка на класс Launcher и метод filterMenu](https://github.com/ischeglov/HW_Magics_DRY_SOLID/blob/f2c2fbfed7683abe65e48e530a4a9785585a15c5/src/main/java/Launcher.java#L89)
 ## SOLID
 
-### 1. Single-responsibility principle - класс Filter, 
+### 1. Single-responsibility principle - класс Filter 
     У класса есть своя отдельная функция - фильтровать товары
     
   * [Ссылка на класс Filter](https://github.com/ischeglov/HW_Magics_DRY_SOLID/blob/main/src/main/java/Filter.java)
