@@ -23,8 +23,9 @@
 6. Протестируйте работу программы. Не забывайте про правила форматирования кода (для автоформата можете выделить код в идее и нажать **Ctrl+Alt+L**).
 
 ### DRY - класс Launcher, метод selectСategoryMenu
-    Можем создать список с абсолютно другим каталогом чего - либо. Передать новый лист в метод и он будет отрабатывать также.
-    Тоже самое касаемо метода filterMenu. При необходимости можем отфильтровать иной каталог товаров.
+    Можем создать список с абсолютно другим каталогом чего - либо. Передать новый лист в метод и 
+    он будет отрабатывать также. Тоже самое касаемо метода filterMenu. 
+    При необходимости можем отфильтровать иной каталог товаров.
 * [Ссылка на класс Launcher и метод selectСategoryMenu](https://github.com/ischeglov/HW_Magics_DRY_SOLID/blob/f2c2fbfed7683abe65e48e530a4a9785585a15c5/src/main/java/Launcher.java#L60)
 * [Ссылка на класс Launcher и метод filterMenu](https://github.com/ischeglov/HW_Magics_DRY_SOLID/blob/f2c2fbfed7683abe65e48e530a4a9785585a15c5/src/main/java/Launcher.java#L89)
 ## SOLID
@@ -49,6 +50,7 @@
   * [Ссылка на класс Phone](https://github.com/ischeglov/HW_Magics_DRY_SOLID/blob/main/src/main/java/Phone.java)
 
 ### 5. Dependency inversion principle - класс Launcher. Метод selectСategoryMenu.
-    Oбъект Adder adder = new AdderWithOrder() - мы можем также сделать через CatalogAdder summator = new AdderWithOrder()
-    и тогда у нас все будет доступно через интерфейс CatalogAdder.
+    Oбъект Adder adder = new AdderWithOrder() - мы можем также сделать через 
+    CatalogAdder summator = new AdderWithOrder() и тогда у нас все будет доступно 
+    через интерфейс CatalogAdder.
   * [Ссылка на класс Launcher и метод selectСategoryMenu](https://github.com/ischeglov/HW_Magics_DRY_SOLID/blob/f2c2fbfed7683abe65e48e530a4a9785585a15c5/src/main/java/Launcher.java#L70)
